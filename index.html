@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mon super blog</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <header>
+      <nav id="navbar" role="navigation">
+        <button class="btn" id="login-btn" aria-haspopup="true" aria-expanded="false" aria-controls="login-modal">Se connecter</button>
+      </nav>
+    </header>
+
+    <main id="main">
+      <h1>Mon super blog</h1>
+
+      <img src="assets/welcome.png" alt="Image de bienvenue" width="1000px" style="margin-bottom: 16px">
+
+      <article class="article">
+        <h2 class="article-heading">Article #1</h2>
+        <p class="article-content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos consequatur neque inventore
+          repellat perspiciatis, ipsam itaque asperiores adipisci pariatur accusamus soluta nulla vel. Vitae,
+          adipisci? Minus sed dolorem ipsam commodi!</p>
+      </article>
+
+      <article class="article">
+        <h2 class="article-heading">Article #2</h2>
+        <p class="article-content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos consequatur neque inventore
+          repellat perspiciatis, ipsam itaque asperiores adipisci pariatur accusamus soluta nulla vel. Vitae,
+          adipisci? Minus sed dolorem ipsam commodi!</p>
+      </article>
+
+      <article class="article">
+        <h2 class="article-heading">Article #3</h2>
+        <p class="article-content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos consequatur neque inventore
+          repellat perspiciatis, ipsam itaque asperiores adipisci pariatur accusamus soluta nulla vel. Vitae,
+          adipisci? Minus sed dolorem ipsam commodi!</p>
+      </article>
+    </main>
+
+    <div id="login-modal" aria-hidden="true" aria-labelledby="login-modal-heading" aria-describedby="login-modal-content">
+      <div id="login-modal-content">
+        <div id="login-modal-header">
+          <button id="login-modal-close-btn" aria-label="Fermer le formulaire de connexion">×</button>
+        </div>
+
+        <h2 id="login-modal-heading">Connectez-vous !</h2>
+
+        <form method="post" id="login-form">
+          <div class="form-row">
+            <img class="form-img" src="assets/01.png" alt="Image de l'icône e-mail">
+            <label for="email">Adresse e-mail:</label>
